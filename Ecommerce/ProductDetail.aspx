@@ -3,8 +3,8 @@
     
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="container">
-        <div class="mt-5">
+    <div class="container pt-4">
+        <div>
             <asp:Label ID="ProdNameLabel" CssClass="fs-2 fw-bold" runat="server" Text=""></asp:Label>
         </div>
         <div class="row">
