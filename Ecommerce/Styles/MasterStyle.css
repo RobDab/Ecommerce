@@ -1,0 +1,39 @@
+﻿*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightslategray;
+}
+
+.header {
+    background: rgb(14,107,1);
+    background: linear-gradient(180deg, rgba(14,107,1,1) 0%, rgba(6,46,0,1) 100%);
+    position: sticky;
+    top: 0;
+    z-index:10;
+}
+
+.card {
+    z-index: -1;
+    
+}
+
+
+
+/*.prodImgContainer {
+    width: 100%;
+    height: 400px;
+}*/
+
+
+
+
+
+
+
+
