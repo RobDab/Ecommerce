@@ -3,7 +3,7 @@
     
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="container pt-4">
+    <div class="container pt-4" style="height:75vh">
         <div>
             <asp:Label ID="ProdNameLabel" CssClass="fs-2 fw-bold" runat="server" Text=""></asp:Label>
         </div>

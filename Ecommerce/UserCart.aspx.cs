@@ -26,6 +26,7 @@ namespace Ecommerce
                 //CartContainer.Style.Add("display", "none");
                 HomeLink.Visible = false;
                 ClearCartBtn.Visible = true;
+                CartContainer.Style.Remove("height");
             }
             else
             {
@@ -49,7 +50,7 @@ namespace Ecommerce
             HomeLink.Visible = true;
             ClearCartBtn.Visible = false;
 
-            
+            CartContainer.Style.Add("height", "70vh");
         }
 
         public static List<Product> Cart = new List<Product>();

@@ -17,7 +17,7 @@
                 <div class="col-4 p-2">
 
 
-                    <div class="card my-3 mt-4 border-0" style="position: relative;">
+                    <div class="card my-3 mt-4 border-0" style="">
                         <div class="prodImgContainer p-2 pt-3">
                             <img src="<%# Item.ProdImgURL %>" class="card-img-top" alt="prod img" style="object-fit: contain; height: 200px;">
                         </div>
