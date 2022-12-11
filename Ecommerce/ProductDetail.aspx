@@ -15,6 +15,7 @@
                 <%--<asp:Label ID="ProdNameLabel" runat="server" Text=""></asp:Label>--%>
                 <p class="fs-3 fw-bold">Dettagli:</p>
                 <asp:Label ID="DescriptionLabel" CssClass="fs-5" runat="server" Text=""></asp:Label>
+                <asp:Label ID="AddedLabel" runat="server" Visible="false" CssClass="mt-3 fw-bold text-dark" Text="Aggiunto al carrello"></asp:Label>
                 <asp:Label ID="PriceLabel" CssClass="text-success fs-4 fw-bold my-3" runat="server" Text=""></asp:Label>
                 <asp:Button ID="CartAddBtn" CssClass="my-2 fs-5 btn btn-warning text-dark fw-bold" runat="server" Text="Aggiungi al carrello" OnClick="CartAddBtn_Click" />
             </div>

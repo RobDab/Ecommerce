@@ -38,12 +38,15 @@ namespace Ecommerce
             {
                 if (prod.ProductID == ProductID)
                 {
-                    Cart.Add(prod);
+                    UserCart.Cart.Add(prod);
 
                 }
             }
+
+            AddedLabel.Visible = true;
+            
         }
 
-        public static List<Product> Cart = new List<Product>();
+        
     }
 }

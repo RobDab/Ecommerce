@@ -11,61 +11,52 @@ namespace Ecommerce
 {
 
 
-    public partial class ProductDetail
+    public partial class UserCart
     {
 
         /// <summary>
-        /// Controllo ProdNameLabel.
+        /// Controllo Label1.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label ProdNameLabel;
+        protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// Controllo ProductImage.
+        /// Controllo Label2.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image ProductImage;
+        protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// Controllo DescriptionLabel.
+        /// Controllo HomeLink.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label DescriptionLabel;
+        protected global::System.Web.UI.WebControls.HyperLink HomeLink;
 
         /// <summary>
-        /// Controllo AddedLabel.
+        /// Controllo ProdRepeater.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label AddedLabel;
+        protected global::System.Web.UI.WebControls.Repeater ProdRepeater;
 
         /// <summary>
-        /// Controllo PriceLabel.
+        /// Controllo ClearCartBtn.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PriceLabel;
-
-        /// <summary>
-        /// Controllo CartAddBtn.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button CartAddBtn;
+        protected global::System.Web.UI.WebControls.Button ClearCartBtn;
     }
 }
