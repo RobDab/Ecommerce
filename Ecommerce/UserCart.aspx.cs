@@ -27,6 +27,15 @@ namespace Ecommerce
                 HomeLink.Visible = false;
                 ClearCartBtn.Visible = true;
             }
+            else
+            {
+                CartContainer.Style.Add("height", "70vh");
+            }
+
+            if (IsPostBack)
+            {
+                ProdRow.Attributes.Add("style", "display:none");
+            }
 
             
 

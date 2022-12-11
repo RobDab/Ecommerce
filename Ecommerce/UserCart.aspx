@@ -11,7 +11,7 @@
             <asp:HyperLink ID="HomeLink" CssClass="btn btn-success fw-bold fs-3 my-5 w-50 mx-auto" Visible="true" runat="server" NavigateUrl="~/Home.aspx">Rimediamo</asp:HyperLink>
         </div>
 
-        <div class="row" >
+        <div class="row" id="ProdRow" runat="server">
         <asp:Repeater ID="ProdRepeater" runat="server" ItemType="Ecommerce.Classes.Product">
             <ItemTemplate>
                 <div class="col-4 p-2">
