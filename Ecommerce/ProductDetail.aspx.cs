@@ -24,9 +24,26 @@ namespace Ecommerce
                 }
             }
 
-            Label1.Text = currentProduct.NameProd;
+            ProductImage.ImageUrl = currentProduct.ProdImgURL;
+            ProdNameLabel.Text = currentProduct.NameProd;
+            DescriptionLabel.Text = currentProduct.DescriptionProd;
+            PriceLabel.Text = currentProduct.ProdPrice.ToString("c2");
+
         }
 
-        
+        protected void CartAddBtn_Click(object sender, EventArgs e)
+        {
+            int ProductID = Convert.ToInt32(Request.QueryString["prodId"]);
+            foreach (Product prod in Home.Inventory)
+            {
+                if (prod.ProductID == ProductID)
+                {
+                    Cart.Add(prod);
+
+                }
+            }
+        }
+
+        public static List<Product> Cart = new List<Product>();
     }
 }

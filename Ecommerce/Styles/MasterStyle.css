@@ -6,9 +6,6 @@
     padding: 0;
 }
 
-body {
-    background-color: lightslategray;
-}
 
 .header {
     background: rgb(14,107,1);
@@ -18,12 +15,16 @@ body {
     z-index:10;
 }
 
-.card {
+
+
+/*.card {
     z-index: -1;
     
+}*/
+
+.imageContainer{
+    margin-top: 2em;
 }
-
-
 
 /*.prodImgContainer {
     width: 100%;
