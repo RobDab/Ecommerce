@@ -3,10 +3,12 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
-    <asp:Label ID="Label1" runat="server" CssClass="fw-bold fs-2 " Text="Il tuo carrello spaziale"></asp:Label>
-        <asp:Label ID="Label2" Visible="true" runat="server" Text="è vuoto!" ></asp:Label>
-        <asp:HyperLink ID="HomeLink" Visible="true" runat="server" NavigateUrl="~/Home.aspx">Rimediamo</asp:HyperLink>
-        <div class="row">
+        <div class="d-flex flex-column" style="height: 75vh; text-align: center">
+    <asp:Label ID="Label1" runat="server" CssClass="fw-bold fs-2 mt-5" Text="Il tuo carrello spaziale"></asp:Label>
+        <asp:Label ID="Label2" CssClass="my-3 fs-3" Visible="true" runat="server" Text="è vuoto!" ></asp:Label>
+        <asp:HyperLink ID="HomeLink" CssClass="btn btn-success fw-bold fs-3 my-5 w-50 mx-auto" Visible="true" runat="server" NavigateUrl="~/Home.aspx">Rimediamo</asp:HyperLink>
+        </div>
+        <div class="row" >
         <asp:Repeater ID="ProdRepeater" runat="server" ItemType="Ecommerce.Classes.Product">
             <ItemTemplate>
                 <div class="col-4 p-2">
@@ -31,6 +33,7 @@
             </ItemTemplate>
         </asp:Repeater>
             </div>
-        <asp:Button ID="ClearCartBtn" runat="server" Text="Svuota il carrello" OnClick="ClearCartBtn_Click" />
+        <asp:Button ID="ClearCartBtn" Visible="false" runat="server" Text="Svuota il carrello" OnClick="ClearCartBtn_Click" />
         </div>
+    
 </asp:Content>
